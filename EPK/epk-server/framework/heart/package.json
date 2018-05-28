@@ -1,0 +1,22 @@
+{
+  "name": "epk-heart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "heart.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "koa": "^2.5.1",
+    "redis": "^2.8.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "source": "node src/source/monitor_pool.js",
+    "monitor": "node src/monitor/run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
